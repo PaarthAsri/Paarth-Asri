@@ -1,4 +1,4 @@
-# Advanced AI Based Phishing Email Detection System
+# Advanced Phishing Email Detection System
 
 A comprehensive solution for detecting and analyzing phishing emails using advanced machine learning and natural language processing techniques.
 
