@@ -1,0 +1,12 @@
+Subject: URGENT: Your Account Security Alert
+
+Dear Valued Customer,
+
+We have detected unusual activity on your account. Your account security has been compromised and requires immediate verification.
+
+Please click here to verify your account: http://secure-login-verify.com/account
+
+This is a limited time offer to secure your account. If you don't verify within 24 hours, your account will be suspended.
+
+Best regards,
+Security Team 
