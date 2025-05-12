@@ -1,3 +1,14 @@
+👨‍💻 About Me
+Hi! I'm Paarth Asri, a passionate cybersecurity enthusiast based in New Delhi, India. I specialize in offensive security, vulnerability research, and threat analysis. With hands-on experience in penetration testing and red team simulations, I enjoy exploring system weaknesses and building stronger defenses.
+
+I'm currently pursuing my BCA at VIPS-TC, and I've interned with organizations like DigiSuraksha Parhari Foundation and IBM, where I strengthened my skills in ethical hacking and web development.
+
+My toolkit includes tools like Metasploit, BeEF, Bettercap, Wireshark, Nmap, and more. I build and break to learn—and I'm always up for a new security challenge. 🛡️💻
+
+📬 Let's connect: paarthasri96@gmail.com
+
+
+
 # Advanced Phishing Email Detection System
 
 A comprehensive solution for detecting and analyzing phishing emails using advanced machine learning and natural language processing techniques.
